@@ -1,0 +1,15 @@
+.detail-books{
+    text-align: left;
+}
+
+.detail-books .d-books{
+    width: 250px;
+    height: 350px;
+}
+
+
+.detail-books .books-box p{
+    font-size: 1.5rem;
+    color: aliceblue;
+    text-align: center;
+}

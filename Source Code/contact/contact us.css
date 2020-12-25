@@ -1,0 +1,140 @@
+/* Toàn cục */
+*{
+   font-family: tahoma;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/*Phần chia Liên Hệ bằng flex-direction*/
+.contact1 
+{
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+    margin-top: 5rem;
+    position: relative;
+    min-height: auto;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.contact1 .content
+{
+    text-align: center;
+    max-width: 800px;
+}
+.contact1 .content h2
+{
+    font-size: 40px;
+    color:black;
+    font-weight: 400;
+    
+}
+.contact1 .content p
+{
+    font-size: 20px;
+    color:black;
+}
+.container1
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+/*Phần chia Send messesnger bằng flex-direction*/
+.container1 .contactInfo
+{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+.container1 .contactInfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container1 .contactInfo .box .icon
+{
+    min-width: 60px;
+    height: 60px;
+    background: rgb(99, 97, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 25px;
+    color: rgb(10, 10, 10);
+}
+.container1 .contactInfo .box .text
+{
+  display: flex;
+  margin-left: 20px;
+  flex-direction: column;
+  font-size: 15px;
+ 
+}
+.container1 .contactInfo .box .text h3
+{
+    color: rgb(23, 23, 24);
+}
+.contactForm
+{
+    width: 50%;
+    padding: 40px;
+    background: white;
+}
+.contactForm h2
+{
+    color: black;
+    font-weight: 400;
+}
+.contactForm .inputbox
+{
+margin-top: 10px;
+width: 100%;
+position: relative;
+}
+.contactForm .inputbox input,
+.contactForm .inputbox textarea
+{
+   width: 100%;
+    
+   padding: 5px 0;
+   margin: 10px 0;
+   outline: none;
+    border: none;
+    border-bottom: 2px solid #333;
+    resize: none;
+} 
+.contactForm .inputbox span
+{
+    position: absolute;
+    left: 0;
+    color: #666;
+    pointer-events: none;
+    transition: 0.5s;
+    padding:1px 0;   /* chỉnh fullname  nằm ra bên lề khi để con trỏ chuột vào*/
+    margin: 0px 0;
+    font-size: 16px;
+}
+
+.contactForm .inputbox input:focus ~ span,
+.contactForm .inputbox input:valid ~ span
+{
+    color:red;
+    font-size: 12px;
+    transform: translate(-18px);     /* hiệu ứng */
+}
+.contactForm .inputbox textarea:focus ~ span,
+.contactForm .inputbox textarea:valid ~ span
+{
+    color:red;
+    font-size: 12px;
+    transform: translate(-18px);
+}

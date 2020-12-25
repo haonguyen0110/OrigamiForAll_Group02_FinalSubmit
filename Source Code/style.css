@@ -1,0 +1,136 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+body{
+  overflow-x: hidden;
+}
+
+#header{
+    text-align: center;
+}
+#header .logo {
+  width: 8%;
+}
+nav{
+  background-image: url(images/nav-bg.jpg);
+}
+.nav-bar{
+  margin: 0 auto;
+}
+.nav-item {
+  padding: 0 0.5rem;
+  margin: 0 auto;
+
+}
+#header a{
+  font-weight: 700;
+}
+.nav-item:hover{
+  border-bottom: 3px solid rgb(88, 85, 49);
+}
+
+/* Intro section */
+.intro{
+  text-align: center;
+  padding-top: 2rem;
+}
+.intro img{
+  width: 450px;
+  height: 300px;
+  margin-right: 2rem;
+}
+.intro .btn{
+  margin-top: 2rem;
+  
+  border-radius: 10px;
+  background-color: rgb(177, 172, 172);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.intro .btn:hover{
+  background-color: grey;
+}
+
+/* Tutorial */
+.main{
+  margin-top: 1rem;
+  text-align: center;
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+  height: 550px;
+}
+.main h2{
+  color: rgb(247, 236, 142);
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.main li{
+  display: inline-block;
+  margin-right: 3rem;
+  background-color: rgb(165, 135, 74);
+  border-radius: 50px;
+
+}
+.main img{
+  border-radius:  50px 50px 0 0;
+}
+.main li:hover{
+     opacity:0.5;
+     font-weight: 700;
+    
+}
+
+.main p{
+  margin-top: 1rem;
+  color: aliceblue;
+}
+/*Footer*/
+.footer {
+  text-align: center;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  margin: 0 auto;
+  margin-left: 5rem;
+}
+.footer li {
+  list-style: none;
+  display: inline;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.footer i {
+  color: rgb(187, 184, 184);
+  font-size: 2rem;
+}
+.social {
+  padding-top: 3%;
+}
+.social h3{
+  font-size: 2.3rem;
+}
+.social i{
+  font-size: 3rem;
+  padding-top: 1.5rem;
+
+}
+.contact {
+
+  padding-top: 3%;
+}
+.contact h3{
+  font-size: 2.5rem;
+}
+.map {
+  width: 10rem;
+}
+.coppyright{
+  text-align: center;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}

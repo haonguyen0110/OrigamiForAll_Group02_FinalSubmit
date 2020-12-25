@@ -1,0 +1,130 @@
+.title {
+    margin-top: -1rem;
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+    padding-bottom: 3rem;
+  }
+  .barner{
+    background-image: url(../images/bg3.jpg);
+    height: 15rem;
+
+  }
+  .barner h2{
+    padding-top: 3rem;
+  }
+  .left{
+     padding-top: 4rem;
+     margin-right: 4rem;
+     margin-left: 2rem;
+  }
+  .title .b-li{
+    border-bottom: none;
+  }
+  .left li{
+    border-bottom: 1px solid;
+    line-height: 3rem;
+    list-style: none;
+   }
+   .left li a{
+    color: black;
+   }
+  .right{
+    background-color: #2f4353;
+    background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+  }
+  .ORM{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: rgb(130, 134, 134);
+    border-radius: 30px;
+    color: white;
+    
+  }
+  .barner {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+
+  }
+  .contenter {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: aliceblue;
+  }
+  .contenter h2 {
+    font-size: 50px;
+  }
+  .mid{
+    text-align: center;
+    padding: 2rem 0 3rem 0;
+  
+  }
+  .mid img {
+    margin: 3rem 2rem 1rem 3rem;
+  }
+  li a:hover{
+  color: white;
+  opacity:0.5;
+  text-decoration: none;
+  }
+  li a{
+    color: white
+  }
+  .mid li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    
+  }
+  .list-group-item a{
+      margin: 20px 0;
+      border: none;
+      border-bottom: 0.5px solid rgb(145, 100, 100);
+    
+  }
+  .page{
+    text-align: center;
+    display: inline;
+    margin-right: 2rem;
+  }
+
+  .ORM{
+    text-align: center;
+  }
+
+  .intruct{
+    text-align: center;
+    padding-top: 5rem;
+   
+  }
+.intruct img{
+  margin-bottom: 1rem;
+}
+.intruct h2{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.intruc{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.next-page{
+  float: right;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+.next-page:hover{
+  color: black;
+}
+
+.pre-page{
+  float: left;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.pre-page:hover{
+  color: black;
+}

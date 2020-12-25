@@ -1,0 +1,49 @@
+
+.show-btn{
+  padding: 1rem 7rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #575a5c;
+  cursor: pointer;
+
+}
+.show-btn, .search{
+  position: absolute;
+  transform: translate(-120%, -50%);
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+.search{
+  display: none;
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+#show:checked ~ .search{
+  display: block;
+  width: 20rem;
+  height: 5rem;
+
+}
+.search .close-btn{
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.search .close-btn:hover{
+  color: #3498db;
+}
+.searchform{
+    text-align: center;
+}
+.btn-search{
+    margin: 0.5rem;
+    border-radius: 10px;
+}
+.form-control{
+    margin-top: 1rem;
+}

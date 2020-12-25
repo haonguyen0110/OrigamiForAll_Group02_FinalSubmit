@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="../../search.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+  <link rel="icon" href="../../../images/logo.png" sizes="16x16">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../tutorial.css">
+  <title>Origami-Tutorial</title>
+
+</head>
+
+
+<body>
+  <section id="header" class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="../../index.html"><img class="logo" src="../../images/logo.png"
+          alt="logo"><b>OrigamiForAll</b></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navitem collapse navbar-collapse " id="navbarNavDropdown">
+        <ul class="navbar-nav navitems">
+          <li class="nav-item">
+            <a class="nav-link" href="../../index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../../books/books.html">Books</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Tutorial
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="basic.html">Basic</a>
+              <a class="dropdown-item" href="../advanced-intruct/advanced.html">Advanced</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../../aboutus/aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="../../contact/cont.html" class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <input type="checkbox" id="show">
+        <label for="show" class="show-btn"><i class="fas fa-search"></i></label>
+        <div class="search">
+          <label for="show" class="close-btn fas fa-times" title="close"></label>
+          <form action="https://www.google.com/search" class="searchform" method="get" name="searchform"
+            target="_blank">
+            <input autocomplete="on" class="form-control" name="q" placeholder="Search every about origami"
+              required="required" type="text">
+          </form>
+        </div>
+    </nav>
+  </section>
+
+  <section class="barner">
+    <div class="contenter">
+      <h2>Origami Tutorial</h2>
+      <p class="content" style="font-size: 20px;">Step by Step diagrams are probably the most popular and easiest to
+        follow way to show how to fold things out of paper.</p>
+    </div>
+  </section>
+  <!-- Phan san pham  -->
+  <div class="title">
+    <div class="row">
+      <!-- Muc phan loai -->
+      <div class="col-sm-2 left">
+        <h4>Origami Tutorial</h4>
+        <ul>
+          <li class="b-li">
+            <a href="#">Basic </a>
+            <span class="badge badge-primary badge-pill">5</span>
+            <ul>
+              <li><a href="animal-phanloai.html">Animal</a></li>
+              <li><a href="bird-phanloai.html">Bird</a></li>
+              <li><a href="food-phanloai.html">Food</a> </li>
+              <li><a href="holiday-phanloai.html">Holiday</a></li>
+              <li><a href="miscell-phanloai.html">Miscellaneous</a></li>
+
+            </ul>
+          </li>
+          <li class="b-li">
+            <a href="#">Advanced </a>
+            <span class="badge badge-primary badge-pill">5</span>
+            <ul>
+              <li><a href="../advanced-intruct/ad-animal.html">Animal</a></li>
+              <li><a href="../advanced-intruct/ad-dragon.html">Dragon</a></li>
+              <li><a href="../advanced-intruct/ad-mouse.html">Mouse</a></li>
+              <li><a href="../advanced-intruct/ad-bird.html">Bird</a></li>
+              <li><a href="../advanced-intruct/ad-other.html">Other</a></li>
+
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-8">
+        <div class="container  intruc">
+          <h2 class="ORM">Origami Popsicle</h2>
+          <hr
+            style="height:2px;border-width:0;color:rgb(145, 100, 100);background-color:rgb(145, 100, 100); width: 70%;">
+
+          <div class="row">
+            <!-- rong-->
+            <div class="col-sm-1">
+            </div>
+            <!-- Noi dung -->
+            <div class="col-sm-10">
+              <br>
+              <br>
+
+              <!-- hang 1 -->
+              <div class="row">
+                <div class="col-sm-4">
+                  <img src="basic-images/popsicle/popsicle-1-min.jpg" width="100%">
+                  <p><b>Step 1)</b> Fold the paper in half and then unfold it.</p>
+                </div>
+                <div class="col-sm-4">
+                  <img src="basic-images/popsicle/popsicle-2-min.jpg" width="100%">
+                  <p><b>Step 2) </b>Fold the side of the paper in along the dotted line.</p>
+                </div>
+                <div class="col-sm-4">
+                  <img src="basic-images/popsicle/popsicle-3-min.jpg" width="100%">
+                  <p><b>Step 3) </b>Fold the top layer of paper out along the dotted line.</p>
+                </div>
+              </div>
+              <!-- hang 2 -->
+              <div class="row">
+                <div class="col-sm-4">
+                  <img src="basic-images/popsicle/popsicle-4-min.jpg" width="100%">
+                  <p><b>Step 4) </b>Fold the side in along the dotted line.</p>
+                </div>
+                <div class="col-sm-4">
+                  <img src="basic-images/popsicle/popsicle-5-min.jpg" width="100%">
+                  <p><b>Step 5) </b>Fold the paper out along the dotted line.</p>
+                </div>
+                <div class="col-sm-4">
+                  <img src="basic-images/popsicle/popsicle-6-min.jpg" width="100%">
+                  <p><b>Step 6) </b>Fold the top part of the paper down along the dotted line.</p>
+                </div>
+              </div>
+              <!-- hang 3 -->
+              <div class="row">
+                <div class="col-sm-4">
+                  <img src="basic-images/popsicle/popsicle-7-min.jpg" width="100%">
+                  <p><b>Step 7) </b>Turn the paper over.</p>
+                </div>
+                <div class="col-sm-4">
+                  <img src="basic-images/popsicle/popsicle-8-min.jpg" width="100%">
+                  <p><b>Step 8) </b>Fold the bottom part of the paper up along the dotted line.</p>
+                </div>
+                <div class="col-sm-4">
+                  <img src="basic-images/popsicle/popsicle-9-min.jpg" width="100%">
+                  <p><b>Step 9) </b>Make a Pleat fold along the dotted lines.</p>
+                </div>
+              </div>
+              <!-- hang 4 -->
+              <div class="row">
+                <div class="col-sm-4">
+                  <img src="basic-images/popsicle/popsicle-10-min.jpg" width="100%">
+                  <p><b>Step 10) </b>Turn the paper over.</p>
+                </div>
+                <div class="col-sm-4">
+                  <img src="basic-images/popsicle/popsicle-11-min.jpg" width="100%">
+                  <p><b>Step 11) </b>Fold the paper on each side towards the centre along the dotted lines. Make a
+                    Swivel Fold as you do on each side and push everything flat. Take a look at the next diagram to
+                    see the final position of the folds.</p>
+                </div>
+                <div class="col-sm-4">
+                  <img src="basic-images/popsicle/popsicle-12-min.jpg" width="100%">
+                  <p><b>Step 12) </b>Turn the paper over.</p>
+                </div>
+              </div>
+              <!-- hang 5 -->
+              <div class="row">
+                <div class="col-sm-4">
+                  <img src="basic-images/popsicle/popsicle-13-min.jpg" width="100%">
+                  <p><b>The complete popsicle</b></p>
+                </div>
+              </div>
+              <p><b>What did you think about this origami cat face? Was it easy? Let us know in the Contact us</b> !
+              </p>
+              <br>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer -->
+  <section class="footer">
+    <div class="row">
+      <div class="col-lg-3 social">
+        <h3>Follow Us on Social Media</h3>
+        <p>
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter-square"></i></a></i></li>
+        </ul>
+        </p>
+      </div>
+
+      <div class="col-lg-3 offset-lg-1 contact">
+        <h3>Address</h3>
+
+        <li>
+          <i class="fas fa-map-marked"></i> 590 Cách Mạng Tháng Tám, Phường 11, Quận 3, Thành phố Hồ Chí Minh
+        </li>
+
+
+
+      </div>
+      <div class="col-lg-3  map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.32531626685!2d106.66410831480086!3d10.78637699231475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23c80767d%3A0x5a981a5efee9fd7d!2zNTkwIEPDoWNoIE3huqFuZyBUaMOhbmcgVMOhbSwgUGjGsOG7nW5nIDExLCBRdeG6rW4gMywgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5o!5e0!3m2!1svi!2s!4v1606211870781!5m2!1svi!2s"
+          width="520" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+          tabindex="0"></iframe>
+      </div>
+    </div>
+
+  </section>
+  <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i
+      class="fas fa-chevron-up"></i></a>
+  <script src="../../index.js"></script>
+  <p class="coppyright">Copyright © OrigamiForAll 2020 All Rights Reserved</p>
+</body>
+
+</html>
